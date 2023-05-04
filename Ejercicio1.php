@@ -12,7 +12,6 @@ class Producto{
         $this -> nombre = $nombre;
         $this -> precio = $precio;
         $this -> disponible = $disponible;
-        
     }
 
     #Definir metodo
@@ -37,6 +36,7 @@ $producto2 ->mostrarProducto();
 echo "<pre>";
 var_dump($producto2);
 echo "</pre>";
+
 
 
 
