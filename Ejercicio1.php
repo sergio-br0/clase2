@@ -17,7 +17,7 @@ class Producto{
 
     #Definir metodo
     public function mostrarProducto(){
-        echo "El Producto es: " .$this->nombre ." y su precio es de:" .$this->precio;
+        echo "El Producto es: " .$this->nombre ." y su precio es de: " .$this->precio;
     }
 }
 //primer objeto
